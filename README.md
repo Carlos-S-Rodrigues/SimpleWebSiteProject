@@ -1,2 +1,2 @@
 # SimpleWebSiteProject
-A simple html/css3 front page model
+A simple html/css/JS landing page model
