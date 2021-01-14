@@ -1,0 +1,468 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body{
+    height:100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+.clear{
+    clear:both;
+}
+
+header{
+    width:100%;
+    height: 9060vh;
+    min-height: 500px;
+    padding: 40px 2%;
+    max-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://picsum.photos/id/100/200/300');
+    font-weight: 300;
+}
+
+header .logo{
+    position:relative;
+    top:-5px;
+    float:right;
+    width:230px;
+    height:80px;
+    background-image: url('https://picsum.photos/1000/300?grayscale');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:red;
+}
+
+.title1{
+    max-width:600px;
+    float:left;
+    margin:100px 150px;
+}
+
+.title1 h2{
+    font-weight: 300;
+    font-size: 40px;
+    color: black;
+}
+
+.title1 p{
+    font-size:15px;
+    color: red;
+    margin-top:10px;
+}
+
+section.section1{
+    width:100%;
+    background-image: url('https://picsum.photos/id/600/200/300');
+    padding:0 2%;
+    height:500px;
+}
+
+section.section1.container{
+    max-width: 1000px;
+    height: calc(50% + 15px);
+}
+
+.txt-section1{
+    float:left;
+    width:50%;
+    position: relative;
+    left:55px;
+    margin-top:70px;
+    padding-left: 60px;
+    color: white;
+}
+
+.txt-section1 h1{
+    font-size:23px;
+    font-weight: 300;
+}
+
+.txt-section1 p{
+    margin-top:20px;
+    font-size:16px;
+}
+
+.txt-section1 h3{
+    font-size:20;
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+.photo1{
+    float: right;
+    TOP:-30px;
+	width: 40%;
+	position: relative;
+	height: calc(100% + 60px);
+	background-image: url('https://picsum.photos/seed/picsum/200/300');
+	background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.section2{
+    margin-top: 60px;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+}
+
+.section2.container{
+	max-width: 1000px;
+}
+
+.section2 h2{
+    padding-top: 10px;
+	color: green;
+	font-weight: 300;
+}
+
+.section2 p{
+	margin-top:20px;
+	max-width: 900px;
+    display:inline-block;
+    padding-bottom: 10px;
+}
+
+.section3{
+    margin-top:30px;
+	width: 100%; 
+}
+
+.left-part{
+	color: white;
+	float: left;
+	width: 50%;
+	padding:140px 0 90px 0;
+	background: lightblue;
+}
+
+.wraper-left{
+	max-width: 600px;
+	float: right;
+	padding:0 30px;
+}
+
+.left-part h2{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.left-part p{
+	font-size: 15px;
+	line-height: 35px;
+	margin-top:10px;
+}
+
+.right-part{
+	float: left;
+	width: 50%;
+	padding:140px 0 60px 0;
+	background: white;
+}
+
+.sobre-slider{
+	float: left;
+	max-width: 600px;
+	padding-left: 30px;
+}
+
+.titulo-slider{
+	float: left;
+	width: 100%;
+}
+
+.wraper-slider{
+	float: left;
+}
+
+.titulo-slider h2{
+	color: #232323;
+	font-weight: 400;
+	font-size: 21px;
+	padding-right: 20px;
+}
+
+
+.texto-slider{
+	float: left;
+	width: 100%;
+	margin-top:90px;
+}
+
+.bullets{
+	width: 100%;
+	float: left;
+	padding-left: 30px;
+	margin-top:12px;
+}
+
+.bullets span{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 8px;
+	cursor: pointer;
+	border-radius: 8px;
+	background-color: red;
+}
+
+section.section4{
+    background-color:brown;
+	padding:50px 0;
+
+}
+
+.form{
+	float: left;
+	width: 50%;
+	color: white;
+	padding-left: 60px;
+	
+}
+
+.form h2{
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.form p{
+	font-size: 16px;
+	font-weight: 300;
+	max-width: 400px;
+	padding-right: 10px;
+}
+
+.form form{
+	margin-top:10px;
+}
+
+.form form input[type=text]{
+	width: 90%;
+	max-width: 480px;
+	margin-top:10px;
+	height: 50px;
+	padding-left: 12px;
+	line-height: 50px;
+	border:2px solid blue;
+}
+
+.form form textarea{
+	width: 90%;
+	margin-top:10px;
+	max-width: 480px;
+	height:80px;
+	padding:15px;
+    border:2px solid blue;
+    resize: none;
+}
+
+.form form input[type=submit]{
+	border: 0;
+	background-color:blue;
+	width: 120px;
+	height: 30px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+	margin-top:15px;
+	border-radius: 10px;
+}
+
+.mapgoogle{
+	float:right;
+	width:50%;
+	padding:0px 10px;
+	color:white;
+}
+
+.mapgoogle h2{
+	padding-bottom: 20px;
+	font-size: 20px;
+	color:white;
+	font-weight: 300;
+}
+
+.mapgoole1{
+	margin-top:10px;
+	width:100%;
+	max-width: 100px;
+	position: relative;
+	background-color:blue;
+}
+
+
+.map{
+	float:left;
+	left:0;
+	top:0;
+	position: relative;
+	width:80%;
+	height:40%;
+	background: white;
+	border: 5px solid blue;
+
+}
+
+footer{
+	padding:40px 2%;
+	background: green;
+	color: white;
+}
+
+footer p:nth-of-type(1){
+	float: left;
+	font-size: 18px;
+}
+
+footer p:nth-of-type(2){
+	float: right;
+	font-size: 18px;
+}
+
+
+@media screen and (max-width:830px){
+	.title1{
+		max-width:none;
+		width:100%;
+		text-align: center;
+		float: none;
+		margin: 170px 0;
+	}
+	.title h2{
+		font-weight:300;
+		font-size: 30px;
+		padding: 0 0px;
+		color: white;
+	}
+	.title p{
+		font-size: 15px;
+		color: white;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	header{
+		width:100%;
+		height: auto;
+		min-height: 60vh;
+		padding: 40px 2%;
+	}
+
+	.title1{
+		margin-top:0px;
+		font-size: 14px;
+	}
+
+	section.section1{
+		padding: 40px 2%;
+		height: auto;
+		text-align: center;
+	}
+	.section1 .container{
+		height: 90%;
+	}
+
+	.photo1{
+		display:none;
+	}
+
+	.txt-section1{
+		width:100%;
+		margin-top:10px;
+		padding-left:0;
+		position: static;
+		float: none;
+		display: inline-block;
+	}
+
+	.section2{
+		padding-top: 40px;
+	}
+
+	section .section4 .container{
+		text-align: center;
+	}
+	.form{
+		float: none;
+		width: 100%;
+	}
+
+
+	.form p{
+		display: inline-block;
+		float:none;
+	}
+
+	.mapgoogle{
+		float: left;
+		width: 100%;
+		padding:0 8%;
+		margin-top: 40px;
+	}
+	.mapgoogle h2{
+		text-align: center;
+		position:relative;
+	}
+	.mapgoogle1{
+		margin-top:10px;
+		width:100% ;
+		max-width:none;
+		display: inline-block;
+		position:relative;
+	}
+
+	.map{
+		float:none;
+		left: 0;
+		top: 0;
+		position: relative;
+		width: 100%;
+		height: 50%;
+		background: white;
+		border: 5px solid blue;
+	}
+}
+
+@media screen and (max-width: 580px){
+	
+	.photo1{
+		display: none;
+	}
+	
+	.left-part{
+		width: 100%;
+		padding: 40px 0;
+	}
+	.right-part{
+		width: 100%;
+		padding: 40px 0;
+	}
+	.section2 img{
+		top:16px;
+		margin-top:20px;
+	}
+
+	footer{
+		text-align: center;
+	}
+	footer p:nth-of-type(1){
+		float: none;
+	}
+	footer p:nth-of-type(2){
+		float: none;
+		margin-top: 8px;
+	}
+}
